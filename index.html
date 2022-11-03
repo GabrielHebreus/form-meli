@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Meli-Solução</title>
+</head>
+<body>
+    <div class="content">
+        <h1>Meli-Relatos</h1>
+        <img class="logo" src="/img/mercado-livre.svg" alt="logo">
+        <form>
+            <div>
+                <input type="text" placeholder="Digite seu nome"class="inputs">
+                <span class="requerimento">Nome deve ter no mínimo 6 caracteres</span>
+            </div>
+            <div>
+                <input type="email" placeholder="Digite seu email"class="inputs">
+                <span class="requerimento">Digite um email válido</span>
+            </div>
+            <div>
+                <input type="password" placeholder="Senha"class="inputs">
+                <span class="requerimento">Digite uma senha com no mínimo 8 caracteres</span>
+            </div>
+            <div>
+                <input type="password" placeholder="Repita sua senha"class="inputs">
+                <span class="requerimento">Senhas devem ser compatíveis</span>
+            </div>
+            <textarea class="inputs" name="descrição" id="descrição" cols="30" rows="10" placeholder="Relate a situação..."></textarea>
+            <p>Situação:</p>
+            <div class="box-select">
+                <div>
+                    <input type="radio"  id="d" value="d" name="situação">
+                    <label for="d">Avaria</label>
+                </div>
+                <div>
+                    <input type="radio"  id="p" value="p" name="situação">
+                    <label for="p">Pacote perdido</label>
+                </div>
+            </div>
+            <p>Qual sua ocupação ?</p>
+            <div class="box-select">
+                <div>
+                    <input type="checkbox"  id="dis" value="dis" name="ocupacao">
+                    <label for="dis">Dispachante</label>
+                </div>
+                <div>
+                    <input type="checkbox"  id="mot" value="mot" name="ocupacao">
+                    <label for="mot">Motorista</label>
+                </div>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
