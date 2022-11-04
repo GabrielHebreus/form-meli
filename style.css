@@ -41,6 +41,9 @@ h1{
 }
 .requerimento{
     display: none;
+    font-size: .9rem;
+    margin: 3px 0 0 1px;
+    color: var(--color-red);
 }
 .inputs{
     padding: 8px 5px;
